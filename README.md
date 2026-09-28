@@ -2,7 +2,7 @@
 enable "CONFIG_TOUCHSCREEN_GOODIX=m" in the kernel config to use  
 
 ## commands
-* compile dtbo from dtso: dtc -I dts -O dtb -o display.dtbo -@ display.dtso
+* compile dtbo from dtso: dtc -I dts -O dtb -o ft6336_480x320.dtbo -@ ft6336_480x320.dtso
 
 ## you may also be interested in the following projects
 * https://github.com/igorkll/syslbuild
