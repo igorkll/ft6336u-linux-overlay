@@ -1,5 +1,5 @@
 # ft6336u-linux-overlay
-enable "CONFIG_TOUCHSCREEN_GOODIX=m" in the kernel config to use  
+enable "CONFIG_TOUCHSCREEN_EDT_FT5X06=m" in the kernel config to use  
 
 ## commands
 * compile dtbo from dtso: dtc -I dts -O dtb -o ft6336_480x320.dtbo -@ ft6336_480x320.dtso
